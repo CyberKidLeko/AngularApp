@@ -1,0 +1,502 @@
+"use strict";
+(self["webpackChunkfirst_app"] = self["webpackChunkfirst_app"] || []).push([["main"],{
+
+/***/ 3966:
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AppRoutingModule: () => (/* binding */ AppRoutingModule)
+/* harmony export */ });
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+
+
+
+const routes = [];
+class AppRoutingModule {}
+AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) {
+  return new (t || AppRoutingModule)();
+};
+AppRoutingModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
+  type: AppRoutingModule
+});
+AppRoutingModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
+  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterModule.forRoot(routes), _angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterModule]
+});
+(function () {
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppRoutingModule, {
+    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterModule],
+    exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterModule]
+  });
+})();
+
+/***/ }),
+
+/***/ 6401:
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AppComponent: () => (/* binding */ AppComponent)
+/* harmony export */ });
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home/home.component */ 6459);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 1699);
+
+
+
+class AppComponent {
+  constructor() {
+    this.title = 'homes';
+  }
+}
+AppComponent.ɵfac = function AppComponent_Factory(t) {
+  return new (t || AppComponent)();
+};
+AppComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
+  type: AppComponent,
+  selectors: [["app-root"]],
+  standalone: true,
+  features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵStandaloneFeature"]],
+  decls: 5,
+  vars: 0,
+  consts: [[1, "brand-name"], ["src", "/assets/logo.svg", "alt", "logo", "aria-hidden", "true", 1, "brand-logo"], [1, "content"]],
+  template: function AppComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "main")(1, "header", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "section", 2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "app-home");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+    }
+  },
+  dependencies: [_home_home_component__WEBPACK_IMPORTED_MODULE_0__.HomeComponent, _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule],
+  styles: ["[_nghost-%COMP%] {\n    --content-padding: 10px;\n  }\n  header[_ngcontent-%COMP%] {\n    display: block;\n    height: 60px;\n    padding: var(--content-padding);\n    box-shadow: 0px 5px 25px var(--shadow-color);\n  }\n  .content[_ngcontent-%COMP%] {\n    padding: var(--content-padding);\n  }\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSx1QkFBdUI7RUFDekI7RUFDQTtJQUNFLGNBQWM7SUFDZCxZQUFZO0lBQ1osK0JBQStCO0lBQy9CLDRDQUE0QztFQUM5QztFQUNBO0lBQ0UsK0JBQStCO0VBQ2pDIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xyXG4gICAgLS1jb250ZW50LXBhZGRpbmc6IDEwcHg7XHJcbiAgfVxyXG4gIGhlYWRlciB7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIGhlaWdodDogNjBweDtcclxuICAgIHBhZGRpbmc6IHZhcigtLWNvbnRlbnQtcGFkZGluZyk7XHJcbiAgICBib3gtc2hhZG93OiAwcHggNXB4IDI1cHggdmFyKC0tc2hhZG93LWNvbG9yKTtcclxuICB9XHJcbiAgLmNvbnRlbnQge1xyXG4gICAgcGFkZGluZzogdmFyKC0tY29udGVudC1wYWRkaW5nKTtcclxuICB9Il0sInNvdXJjZVJvb3QiOiIifQ== */"]
+});
+
+/***/ }),
+
+/***/ 8629:
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AppModule: () => (/* binding */ AppModule)
+/* harmony export */ });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 6480);
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app-routing.module */ 3966);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 6401);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1699);
+
+
+
+
+
+
+class AppModule {}
+AppModule.ɵfac = function AppModule_Factory(t) {
+  return new (t || AppModule)();
+};
+AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({
+  type: AppModule
+});
+AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({
+  imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule.forRoot([]), _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule]
+});
+(function () {
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](AppModule, {
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule, _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule, _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule]
+  });
+})();
+(0,_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.bootstrapApplication)(_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent);
+
+/***/ }),
+
+/***/ 712:
+/*!**********************************************!*\
+  !*** ./src/app/details/details.component.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   DetailsComponent: () => (/* binding */ DetailsComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+
+
+
+
+
+
+class DetailsComponent {
+  constructor(router, activatedRoute) {
+    this.housingLocationId = -1;
+    this.route = activatedRoute;
+  }
+  ngOnInit() {
+    this.housingLocationId = Number(this.route.snapshot.params['id']);
+  }
+}
+DetailsComponent.ɵfac = function DetailsComponent_Factory(t) {
+  return new (t || DetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__.ActivatedRoute));
+};
+DetailsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+  type: DetailsComponent,
+  selectors: [["app-details"]],
+  standalone: true,
+  features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([_angular_router__WEBPACK_IMPORTED_MODULE_1__.Router, _angular_router__WEBPACK_IMPORTED_MODULE_1__.ActivatedRoute]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵStandaloneFeature"]],
+  decls: 2,
+  vars: 1,
+  template: function DetailsComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    }
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("details works! ", ctx.housingLocationId, "");
+    }
+  },
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterModule],
+  styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
+});
+
+/***/ }),
+
+/***/ 6459:
+/*!****************************************!*\
+  !*** ./src/app/home/home.component.ts ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   HomeComponent: () => (/* binding */ HomeComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _housing_location_housing_location_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../housing-location/housing-location.component */ 97);
+/* harmony import */ var _housing_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../housing.service */ 556);
+
+
+
+
+
+
+function HomeComponent_app_housing_location_6_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "app-housing-location", 4);
+  }
+  if (rf & 2) {
+    const housingLocation_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("housingLocation", housingLocation_r1);
+  }
+}
+class HomeComponent {
+  constructor() {
+    this.housingLocationList = [];
+    this.housingService = (0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.inject)(_housing_service__WEBPACK_IMPORTED_MODULE_1__.HousingService);
+    this.housingLocationList = this.housingService.getAllHousingLocations();
+  }
+}
+HomeComponent.ɵfac = function HomeComponent_Factory(t) {
+  return new (t || HomeComponent)();
+};
+HomeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
+  type: HomeComponent,
+  selectors: [["app-home"]],
+  standalone: true,
+  features: [_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵStandaloneFeature"]],
+  decls: 7,
+  vars: 1,
+  consts: [["type", "text", "placeholder", "Filter by city"], ["type", "button", 1, "primary"], [1, "results"], [3, "housingLocation", 4, "ngFor", "ngForOf"], [3, "housingLocation"]],
+  template: function HomeComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section")(1, "form");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](2, "input", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "button", 1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, "Search");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "section", 2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](6, HomeComponent_app_housing_location_6_Template, 1, 1, "app-housing-location", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    }
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.housingLocationList);
+    }
+  },
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.CommonModule, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgForOf, _housing_location_housing_location_component__WEBPACK_IMPORTED_MODULE_0__.HousingLocationComponent],
+  styles: [".results[_ngcontent-%COMP%] {\n    display: grid;\n    column-gap: 14px;\n    row-gap: 14px;\n    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));\n    margin-top: 50px;\n    justify-content: space-around;\n  }\n  \n  input[type=\"text\"][_ngcontent-%COMP%] {\n    border: solid 1px black;\n    padding: 10px;\n    border-radius: 8px;\n    margin-right: 4px;\n    display: inline-block;\n    width: 30%;\n  }\n  \n  button[_ngcontent-%COMP%] {\n    padding: 10px;\n    border: solid 1px;\n    background: rgb(59, 0, 160);\n    color:rgb(255, 255, 255);\n    border-radius: 8px;\n  }\n  \n  @media (min-width: 500px) and (max-width: 768px) {\n    .results[_ngcontent-%COMP%] {\n        grid-template-columns: repeat(2, 1fr);\n    }\n    input[type=\"text\"][_ngcontent-%COMP%] {\n        width: 70%;\n    }   \n  }\n  \n  @media (max-width: 499px) {\n    .results[_ngcontent-%COMP%] {\n        grid-template-columns: 1fr;\n    }    \n  }\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLGFBQWE7SUFDYiw4REFBOEQ7SUFDOUQsZ0JBQWdCO0lBQ2hCLDZCQUE2QjtFQUMvQjs7RUFFQTtJQUNFLHVCQUF1QjtJQUN2QixhQUFhO0lBQ2Isa0JBQWtCO0lBQ2xCLGlCQUFpQjtJQUNqQixxQkFBcUI7SUFDckIsVUFBVTtFQUNaOztFQUVBO0lBQ0UsYUFBYTtJQUNiLGlCQUFpQjtJQUNqQiwyQkFBMkI7SUFDM0Isd0JBQXdCO0lBQ3hCLGtCQUFrQjtFQUNwQjs7RUFFQTtJQUNFO1FBQ0kscUNBQXFDO0lBQ3pDO0lBQ0E7UUFDSSxVQUFVO0lBQ2Q7RUFDRjs7RUFFQTtJQUNFO1FBQ0ksMEJBQTBCO0lBQzlCO0VBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyIucmVzdWx0cyB7XHJcbiAgICBkaXNwbGF5OiBncmlkO1xyXG4gICAgY29sdW1uLWdhcDogMTRweDtcclxuICAgIHJvdy1nYXA6IDE0cHg7XHJcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpbGwsIG1pbm1heCg0MDBweCwgNDAwcHgpKTtcclxuICAgIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcclxuICB9XHJcbiAgXHJcbiAgaW5wdXRbdHlwZT1cInRleHRcIl0ge1xyXG4gICAgYm9yZGVyOiBzb2xpZCAxcHggYmxhY2s7XHJcbiAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogOHB4O1xyXG4gICAgbWFyZ2luLXJpZ2h0OiA0cHg7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICB3aWR0aDogMzAlO1xyXG4gIH1cclxuICBcclxuICBidXR0b24ge1xyXG4gICAgcGFkZGluZzogMTBweDtcclxuICAgIGJvcmRlcjogc29saWQgMXB4O1xyXG4gICAgYmFja2dyb3VuZDogcmdiKDU5LCAwLCAxNjApO1xyXG4gICAgY29sb3I6cmdiKDI1NSwgMjU1LCAyNTUpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogOHB4O1xyXG4gIH1cclxuICBcclxuICBAbWVkaWEgKG1pbi13aWR0aDogNTAwcHgpIGFuZCAobWF4LXdpZHRoOiA3NjhweCkge1xyXG4gICAgLnJlc3VsdHMge1xyXG4gICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDIsIDFmcik7XHJcbiAgICB9XHJcbiAgICBpbnB1dFt0eXBlPVwidGV4dFwiXSB7XHJcbiAgICAgICAgd2lkdGg6IDcwJTtcclxuICAgIH0gICBcclxuICB9XHJcbiAgXHJcbiAgQG1lZGlhIChtYXgtd2lkdGg6IDQ5OXB4KSB7XHJcbiAgICAucmVzdWx0cyB7XHJcbiAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnI7XHJcbiAgICB9ICAgIFxyXG4gIH0iXSwic291cmNlUm9vdCI6IiJ9 */"]
+});
+
+/***/ }),
+
+/***/ 97:
+/*!****************************************************************!*\
+  !*** ./src/app/housing-location/housing-location.component.ts ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   HousingLocationComponent: () => (/* binding */ HousingLocationComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+
+//import { housingLocation } from  '../housinglocation';
+
+
+
+const _c0 = function (a1) {
+  return ["/details", a1];
+};
+class HousingLocationComponent {}
+HousingLocationComponent.ɵfac = function HousingLocationComponent_Factory(t) {
+  return new (t || HousingLocationComponent)();
+};
+HousingLocationComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+  type: HousingLocationComponent,
+  selectors: [["app-housing-location"]],
+  inputs: {
+    housingLocation: "housingLocation"
+  },
+  standalone: true,
+  features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵStandaloneFeature"]],
+  decls: 8,
+  vars: 8,
+  consts: [[1, "listing"], [1, "listing-photo", 3, "src", "alt"], [1, "listing-heading"], [1, "listing-location"], [3, "routerLink"]],
+  template: function HousingLocationComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2", 2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Learn More");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+    }
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("alt", "Exterior photo of ", ctx.housingLocation.name, "");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.housingLocation.photo, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.housingLocation.name);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("", ctx.housingLocation.city, ", ", ctx.housingLocation.state, "");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c0, ctx.housingLocation.id));
+    }
+  },
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule, _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterLink],
+  styles: [".listing[_ngcontent-%COMP%] {\n    background: rgb(150, 141, 179);\n    border-radius: 30px;\n    padding-bottom: 30px;\n  }\n  .listing-heading[_ngcontent-%COMP%] {\n    color: var(--primary-color);\n    padding: 10px 20px 0 20px;\n  }\n  .listing-photo[_ngcontent-%COMP%] {\n    height: 250px;\n    width: 100%;\n    object-fit: fill;\n    border-radius: 30px 30px 0 0;\n  }\n  .listing-location[_ngcontent-%COMP%] {\n    padding: 10px 20px 20px 20px;\n  }\n  .listing-location[_ngcontent-%COMP%]::before {\n    content: url(\"/assets/location-pin.svg\") / \"\";\n  }\n  \n  section.listing[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n    padding-left: 20px;\n    text-decoration: none;\n    color: var(--primary-color);\n  }\n  section.listing[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]::after {\n    content: \"\\203A\";\n    margin-left: 5px;\n  }\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaG91c2luZy1sb2NhdGlvbi9ob3VzaW5nLWxvY2F0aW9uLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSw4QkFBOEI7SUFDOUIsbUJBQW1CO0lBQ25CLG9CQUFvQjtFQUN0QjtFQUNBO0lBQ0UsMkJBQTJCO0lBQzNCLHlCQUF5QjtFQUMzQjtFQUNBO0lBQ0UsYUFBYTtJQUNiLFdBQVc7SUFDWCxnQkFBZ0I7SUFDaEIsNEJBQTRCO0VBQzlCO0VBQ0E7SUFDRSw0QkFBNEI7RUFDOUI7RUFDQTtJQUNFLDZDQUE2QztFQUMvQzs7RUFFQTtJQUNFLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsMkJBQTJCO0VBQzdCO0VBQ0E7SUFDRSxnQkFBZ0I7SUFDaEIsZ0JBQWdCO0VBQ2xCIiwic291cmNlc0NvbnRlbnQiOlsiLmxpc3Rpbmcge1xyXG4gICAgYmFja2dyb3VuZDogcmdiKDE1MCwgMTQxLCAxNzkpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMzBweDtcclxuICAgIHBhZGRpbmctYm90dG9tOiAzMHB4O1xyXG4gIH1cclxuICAubGlzdGluZy1oZWFkaW5nIHtcclxuICAgIGNvbG9yOiB2YXIoLS1wcmltYXJ5LWNvbG9yKTtcclxuICAgIHBhZGRpbmc6IDEwcHggMjBweCAwIDIwcHg7XHJcbiAgfVxyXG4gIC5saXN0aW5nLXBob3RvIHtcclxuICAgIGhlaWdodDogMjUwcHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIG9iamVjdC1maXQ6IGZpbGw7XHJcbiAgICBib3JkZXItcmFkaXVzOiAzMHB4IDMwcHggMCAwO1xyXG4gIH1cclxuICAubGlzdGluZy1sb2NhdGlvbiB7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDIwcHggMjBweCAyMHB4O1xyXG4gIH1cclxuICAubGlzdGluZy1sb2NhdGlvbjo6YmVmb3JlIHtcclxuICAgIGNvbnRlbnQ6IHVybChcIi9hc3NldHMvbG9jYXRpb24tcGluLnN2Z1wiKSAvIFwiXCI7XHJcbiAgfVxyXG4gIFxyXG4gIHNlY3Rpb24ubGlzdGluZyBhIHtcclxuICAgIHBhZGRpbmctbGVmdDogMjBweDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgIGNvbG9yOiB2YXIoLS1wcmltYXJ5LWNvbG9yKTtcclxuICB9XHJcbiAgc2VjdGlvbi5saXN0aW5nIGE6OmFmdGVyIHtcclxuICAgIGNvbnRlbnQ6IFwiXFwyMDNBXCI7XHJcbiAgICBtYXJnaW4tbGVmdDogNXB4O1xyXG4gIH0iXSwic291cmNlUm9vdCI6IiJ9 */"]
+});
+
+/***/ }),
+
+/***/ 556:
+/*!************************************!*\
+  !*** ./src/app/housing.service.ts ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   HousingService: () => (/* binding */ HousingService)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+
+class HousingService {
+  constructor() {
+    this.housingLocationList = [{
+      id: 0,
+      name: 'Acme Fresh Start Housing',
+      city: 'Chicago',
+      state: 'IL',
+      photo: '/assets/house1.jpg',
+      availableUnits: 4,
+      wifi: true,
+      laundry: true
+    }, {
+      id: 1,
+      name: 'A113 Transitional Housing',
+      city: 'Santa Monica',
+      state: 'CA',
+      photo: '/assets/house2.jpg',
+      availableUnits: 0,
+      wifi: false,
+      laundry: true
+    }, {
+      id: 2,
+      name: 'Warm Beds Housing Support',
+      city: 'Juneau',
+      state: 'AK',
+      photo: '/assets/house3.jpeg',
+      availableUnits: 1,
+      wifi: false,
+      laundry: false
+    }, {
+      id: 3,
+      name: 'Homesteady Housing',
+      city: 'Chicago',
+      state: 'IL',
+      photo: '/assets/house4.jpeg',
+      availableUnits: 1,
+      wifi: true,
+      laundry: false
+    }, {
+      id: 4,
+      name: 'Happy Homes Group',
+      city: 'Gary',
+      state: 'IN',
+      photo: '/assets/house5.jpeg',
+      availableUnits: 1,
+      wifi: true,
+      laundry: false
+    }, {
+      id: 5,
+      name: 'Hopeful Apartment Group',
+      city: 'Oakland',
+      state: 'CA',
+      photo: '/assets/house6.jpg',
+      availableUnits: 2,
+      wifi: true,
+      laundry: true
+    }, {
+      id: 6,
+      name: 'Seriously Safe Towns',
+      city: 'Oakland',
+      state: 'CA',
+      photo: '/assets/house7.jpeg',
+      availableUnits: 5,
+      wifi: true,
+      laundry: true
+    }, {
+      id: 7,
+      name: 'Hopeful Housing Solutions',
+      city: 'Oakland',
+      state: 'CA',
+      photo: '/assets/house8.jpeg',
+      availableUnits: 2,
+      wifi: true,
+      laundry: true
+    }, {
+      id: 8,
+      name: 'Seriously Safe Towns',
+      city: 'Oakland',
+      state: 'CA',
+      photo: '/assets/house9.jpg',
+      availableUnits: 10,
+      wifi: false,
+      laundry: false
+    }, {
+      id: 9,
+      name: 'Capital Safe Towns',
+      city: 'Portland',
+      state: 'OR',
+      photo: '/assets/house10.jpg',
+      availableUnits: 6,
+      wifi: true,
+      laundry: true
+    }];
+  }
+  getAllHousingLocations() {
+    return this.housingLocationList;
+  }
+  getHousingLocationById(id) {
+    return this.housingLocationList.find(housingLocation => housingLocation.id === id);
+  }
+}
+HousingService.ɵfac = function HousingService_Factory(t) {
+  return new (t || HousingService)();
+};
+HousingService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
+  token: HousingService,
+  factory: HousingService.ɵfac,
+  providedIn: 'root'
+});
+
+/***/ }),
+
+/***/ 436:
+/*!***************************!*\
+  !*** ./src/app/routes.ts ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home/home.component */ 6459);
+/* harmony import */ var _details_details_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./details/details.component */ 712);
+
+
+const routeConfig = [{
+  path: '',
+  component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__.HomeComponent,
+  title: 'Home page'
+}, {
+  path: 'details/:id',
+  component: _details_details_component__WEBPACK_IMPORTED_MODULE_1__.DetailsComponent,
+  title: 'Home details'
+}];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (routeConfig);
+
+/***/ }),
+
+/***/ 4913:
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 6480);
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 8629);
+/* harmony import */ var _app_app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app/app.component */ 6401);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _app_routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/routes */ 436);
+
+
+
+
+
+
+_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.platformBrowser().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_0__.AppModule).catch(err => console.error(err));
+(0,_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.bootstrapApplication)(_app_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, {
+  providers: [(0,_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.provideProtractorTestingSupport)(), (0,_angular_router__WEBPACK_IMPORTED_MODULE_4__.provideRouter)(_app_routes__WEBPACK_IMPORTED_MODULE_2__["default"])]
+}).catch(err => console.error(err));
+
+/***/ })
+
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(6576), __webpack_exec__(4913)));
+/******/ var __webpack_exports__ = __webpack_require__.O();
+/******/ }
+]);
+//# sourceMappingURL=main.js.map
